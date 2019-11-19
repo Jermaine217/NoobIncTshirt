@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NoobIncTshirt.MainPage" Title="{Binding Name}">
+
+
+
+
+
+  <ScrollView>
+    <StackLayout AnchorX="20" AnchorY="10" HorizontalOptions="Start">
+        
+
+            <Image Source="MainPic.png" />
+            <Label
+              Text="Welcome Too NOOBS T-Shirts"
+              TextColor="Red"
+              FontSize="20"
+              VerticalOptions="Center"
+              HorizontalOptions="Center">
+             </Label>
+
+             <Button Text="next page" 
+              TextColor="Blue"
+              Clicked="nextpage_Clicked"
+              Margin="50" 
+            
+             />
+
+            <Image Source="RankNoob.jpg"
+              HorizontalOptions="Center"
+                   
+            />
+
+        </StackLayout>
+  </ScrollView>
+</ContentPage>

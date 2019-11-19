@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj": {}
+    "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj": {}
   },
   "projects": {
-    "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj": {
+    "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj",
+        "projectUniqueName": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj",
         "projectName": "NoobIncTshirt.iOS",
-        "projectPath": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj",
+        "projectPath": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt.iOS\\NoobIncTshirt.iOS.csproj",
         "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt.iOS\\obj\\",
+        "outputPath": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj": {
-                "projectPath": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj"
+              "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj": {
+                "projectPath": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj"
               }
             }
           }
@@ -42,6 +42,14 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -69,14 +77,14 @@
         }
       }
     },
-    "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj": {
+    "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj",
+        "projectUniqueName": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj",
         "projectName": "NoobIncTshirt",
-        "projectPath": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj",
+        "projectPath": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\NoobIncTshirt.csproj",
         "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHib\\NoobIncTshirt\\NoobIncTshirt\\obj\\",
+        "outputPath": "D:\\Projects\\NoobIncTshirt\\NoobIncTshirt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -107,11 +115,19 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
