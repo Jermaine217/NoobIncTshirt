@@ -1,8 +1,6 @@
 D:\Projects\NoobIncTshirt\NoobIncTshirt\bin\Debug\netstandard2.0\NoobIncTshirt.deps.json
 D:\Projects\NoobIncTshirt\NoobIncTshirt\bin\Debug\netstandard2.0\NoobIncTshirt.dll
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\TShirtPage.xaml.g.cs
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.AssemblyInfoInputs.cache
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.AssemblyInfo.cs
 D:\Projects\NoobIncTshirt\NoobIncTshirt\bin\Debug\netstandard2.0\ref\NoobIncTshirt.dll
@@ -10,7 +8,9 @@ D:\Projects\NoobIncTshirt\NoobIncTshirt\bin\Debug\netstandard2.0\NoobIncTshirt.p
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.dll
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\ref\NoobIncTshirt.dll
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.pdb
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.csprojAssemblyReference.cache
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\Content.xaml.g.cs
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\ViewOrders.xaml.g.cs
+D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\Content\Content.xaml.g.cs
+D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\MainPage\MainPage.xaml.g.cs
+D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\TShirtDataBase\TShirtPage.xaml.g.cs
+D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\ViewOrders\ViewOrders.xaml.g.cs
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.csprojAssemblyReference.cache

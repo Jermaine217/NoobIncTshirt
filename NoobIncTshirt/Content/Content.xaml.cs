@@ -19,9 +19,9 @@ namespace NoobIncTshirt
         }
     
          private void OnButtonClicked(object sender, EventArgs e)
-        {
+         {
             Navigation.PushAsync(new Page1());
-        }
+         }
 
     
     }

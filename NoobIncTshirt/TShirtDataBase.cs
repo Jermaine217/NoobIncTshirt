@@ -13,8 +13,13 @@ namespace NoobIncTshirt
 
         public TShirtDatabase(string dbPath)
         {
+      
+            
             database = new SQLiteAsyncConnection(dbPath);
             database.CreateTableAsync<TShirttable>().Wait();
+       
+        
+        
         }
 
         public Task<List<TShirttable>> GetItemsAsync()

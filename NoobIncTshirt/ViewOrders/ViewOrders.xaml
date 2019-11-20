@@ -4,41 +4,49 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NoobIncTshirt.ViewOrders">
+             x:Class="NoobIncTshirt.ViewOrders"
+             BackgroundImageSource="background3.jpg">
+
+
+
     <ContentPage.Content>
         <StackLayout>
+            
             <ListView
-                ItemsSource="{Binding TShirtOrders}"
-                HasUnevenRows="True"
-                >
+                ItemsSource="{Binding TShirtOrders}" HasUnevenRows="True" ItemSelected="SelectedTShirtOrder">
+                
+                
+                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
                                 <Grid
-                                    Margin="7"
-                                >
+                                    Margin="7">
+                                    
                                     <Grid.RowDefinitions>
                                         <RowDefinition
-                                            Height="Auto"
+                                            Height="*"
                                         />
                                         <RowDefinition
-                                            Height="Auto"
+                                            Height="*"
                                         />
                                         <RowDefinition
-                                            Height="Auto"
+                                            Height="*"
                                         />
                                     </Grid.RowDefinitions>
+                                    
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition
-                                            Width="Auto"
+                                            Width="*"
                                         />
                                         <ColumnDefinition
-                                            Width="Auto"
+                                            Width="*"
                                         />
                                     </Grid.ColumnDefinitions>
+                                    
                                     <Label
-                                           Text="ORDER INFORMATION"
+                                           Text="Order Information"
                                            FontAttributes="Bold"
                                            Grid.Row="0"
                                            Grid.Column="0"
@@ -78,6 +86,7 @@
                                     />
 
                                 </Grid>
+                                
                             </ViewCell.View>
                         </ViewCell>
                     </DataTemplate>
@@ -85,8 +94,20 @@
             </ListView>
             <Button
              Text="CONFIRM ORDERS"
+             TextColor="Red"
              Clicked="OnConfirmOrderClicked"
             ></Button>
+            
+            <Button
+             Text="Confirm Address"
+             TextColor="Blue"
+             Clicked="OnConfirmAddressClicked"
+            >
+            
+            </Button>
+
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

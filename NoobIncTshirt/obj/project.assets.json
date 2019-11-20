@@ -653,7 +653,7 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "Xamarin.Essentials/1.2.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -2829,10 +2829,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.2.0": {
-      "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
+    "Xamarin.Essentials/1.3.1": {
+      "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
-      "path": "xamarin.essentials/1.2.0",
+      "path": "xamarin.essentials/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2860,6 +2860,9 @@
         "lib/netstandard2.0/Xamarin.Essentials.dll",
         "lib/netstandard2.0/Xamarin.Essentials.pdb",
         "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
         "lib/uap10.0.16299/Xamarin.Essentials.dll",
         "lib/uap10.0.16299/Xamarin.Essentials.pdb",
         "lib/uap10.0.16299/Xamarin.Essentials.pri",
@@ -2867,8 +2870,14 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.2.0.nupkg.sha512",
+        "xamarin.essentials.1.3.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -3124,7 +3133,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 2.2.6",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
-      "Xamarin.Essentials >= 1.2.0",
+      "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.2.0.709249",
       "sqlite-net >= 1.6.292",
       "sqlite-net-pcl >= 1.6.292"
@@ -3188,7 +3197,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.2.0, )"
+            "version": "[1.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

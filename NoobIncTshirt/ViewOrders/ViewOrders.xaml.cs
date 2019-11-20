@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
+using Xamarin.Essentials;
 
 namespace NoobIncTshirt
 {
@@ -14,6 +15,8 @@ namespace NoobIncTshirt
     public partial class ViewOrders : ContentPage
     {
         public List<TShirttable> TShirtOrders { get; set; }
+
+        private TShirttable selectedOrders;
         public ViewOrders()
         {
             InitializeComponent();
@@ -42,6 +45,50 @@ namespace NoobIncTshirt
             {
                 await DisplayAlert("Exceptions", "Try Again", "ok");
             }
+
+
         }
+
+            public async Task ShowMap()
+            {
+
+                var placemark = new Placemark
+                {
+                    
+                    Thoroughfare = selectedOrders.ShippingAddress
+                    
+                };
+                var options = new MapLaunchOptions { Name = "Mitchell's Plain" };
+
+                await Xamarin.Essentials.Map.OpenAsync(placemark, options);
+
+                
+            }
+
+        private async void OnConfirmAddressClicked(object sender, EventArgs e)
+        {
+            await ShowMap();
+        }
+
+        private async void OnTRACKPackageClicked(object sender, EventArgs e)
+        {
+            if (selectedOrders != null)
+            {
+                var placemark = new Placemark
+                {
+                    Thoroughfare = selectedOrders.ShippingAddress
+                };
+                var options = new MapLaunchOptions { Name = selectedOrders.Name };
+                await Map.OpenAsync(placemark, options);
+            }
+        }
+        private void SelectedTShirtOrder(object sender, SelectedItemChangedEventArgs e)
+        {
+            selectedOrders = e.SelectedItem as TShirttable;
+        }
+
     }
+
 }
+
+
