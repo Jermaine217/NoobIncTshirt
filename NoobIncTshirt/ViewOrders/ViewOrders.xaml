@@ -101,7 +101,7 @@
             <Button
              Text="Confirm Address"
              TextColor="Blue"
-             Clicked="OnConfirmAddressClicked"
+             Clicked="OnTRACKPackageClicked"
             >
             
             </Button>

@@ -88,3 +88,6 @@ D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Xamarin.Fo
 D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
 D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
 D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Google.Maps.dll
+D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Mono.Android.dll
+D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Mono.Android.pdb
+D:\Projects\NoobIncTshirt\NoobIncTshirt.iOS\bin\iPhoneSimulator\Debug\Mono.Android.xml

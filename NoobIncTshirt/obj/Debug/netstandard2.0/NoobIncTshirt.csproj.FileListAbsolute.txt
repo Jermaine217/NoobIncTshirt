@@ -13,4 +13,3 @@ D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\MainPage\MainPa
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\TShirtDataBase\TShirtPage.xaml.g.cs
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\ViewOrders\ViewOrders.xaml.g.cs
 D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\XamlC.stamp
-D:\Projects\NoobIncTshirt\NoobIncTshirt\obj\Debug\netstandard2.0\NoobIncTshirt.csprojAssemblyReference.cache
